@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.div {
+column-gap: 0px;
+padding-left: 0px;
+padding-right: 0px;
+}
+figure {
+font-size: 20px;
+font-style: normal;
+font-weight: 400 !important
+padding: 0px;
+margin: 0px;
+}
+label{
+font-weight: 400 !important}
+</style>
+<link rel="icon" type = "image/png" href="photos/leva.png">
+ <meta property="og:image" content="./photos/leva.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="400" />
+<meta property="og:image:height" content="400" />
+<title> Статистика Фопфа </title>
+</head>
+<body>
+Данные с июля 2016 года по день 6 июня 2020 года. msg &mdash; количество любых сообщений, symb &mdash; суммарная их длина в символах,
+stickers &mdash; суммарное количество отправленных стикеров. Данные могут быть не точны, особенно касающиеся стикеров, так как VK просто
+так не дает доступ к API сообщений, и пришлось парсить сам сайт.
+<h1>
+Пятеро с наибольшим количеством сообщений
+</h1>
+<div class="row"><div class="column">
+     <figure>
+    <img src="photos/69185993.png" alt="Кирилл Иванов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id69185993"> Кирилл Иванов</a><br> msg: 14706 <br> symb: 331001<br> stickers: 268</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/49104782.png" alt="Арсений Кусков" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id49104782"> Арсений Кусков</a><br> msg: 3288 <br> symb: 68904<br> stickers: 98</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/353835640.png" alt="Татьяна Иголкина" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id353835640"> Татьяна Иголкина</a><br> msg: 3143 <br> symb: 102053<br> stickers: 54</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/72103912.png" alt="Данил Чукланов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id72103912"> Данил Чукланов</a><br> msg: 3138 <br> symb: 66950<br> stickers: 31</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/159756385.png" alt="Артур Пименов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id159756385"> Артур Пименов</a><br> msg: 2815 <br> symb: 69881<br> stickers: 32</figcaption>
+    </figure>
+  </div></div><h1>
+Пятеро с наибольшей длиной сообщений
+</h1>
+<div class="row"><div class="column">
+     <figure>
+    <img src="photos/69185993.png" alt="Кирилл Иванов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id69185993"> Кирилл Иванов</a><br> msg: 14706 <br> symb: 331001<br> stickers: 268</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/353835640.png" alt="Татьяна Иголкина" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id353835640"> Татьяна Иголкина</a><br> msg: 3143 <br> symb: 102053<br> stickers: 54</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/252931928.png" alt="Маша Демьяненко" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id252931928"> Маша Демьяненко</a><br> msg: 2039 <br> symb: 77367<br> stickers: 27</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/97457717.png" alt="Екатерина Сажина" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id97457717"> Екатерина Сажина</a><br> msg: 2682 <br> symb: 74402<br> stickers: 38</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/159756385.png" alt="Артур Пименов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id159756385"> Артур Пименов</a><br> msg: 2815 <br> symb: 69881<br> stickers: 32</figcaption>
+    </figure>
+  </div></div>
+<h1>
+Пятеро с наибольшим числом стикеров
+</h1>
+<div class="row"><div class="column">
+     <figure>
+    <img src="photos/69185993.png" alt="Кирилл Иванов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id69185993"> Кирилл Иванов</a><br> msg: 14706 <br> symb: 331001<br> stickers: 268</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/49104782.png" alt="Арсений Кусков" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id49104782"> Арсений Кусков</a><br> msg: 3288 <br> symb: 68904<br> stickers: 98</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/115244199.png" alt="Владимир Журавлев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id115244199"> Владимир Журавлев</a><br> msg: 1750 <br> symb: 41643<br> stickers: 76</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/375952297.png" alt="Николай Кузнецов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id375952297"> Николай Кузнецов</a><br> msg: 1066 <br> symb: 47834<br> stickers: 74</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/353835640.png" alt="Татьяна Иголкина" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id353835640"> Татьяна Иголкина</a><br> msg: 3143 <br> symb: 102053<br> stickers: 54</figcaption>
+    </figure>
+  </div></div>
+<h1>
+Общая статистика
+</h1>
+<div class="row"><div class="column">
+     <figure>
+    <img src="photos/69185993.png" alt="Кирилл Иванов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id69185993"> Кирилл Иванов</a><br> msg: 14706 <br> symb: 331001<br> stickers: 268</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/258199400.png" alt="Роберт Хаус" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id258199400"> Роберт Хаус</a><br> msg: 188 <br> symb: 4577<br> stickers: 10</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/210623362.png" alt="Евгения Цимбалистая" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id210623362"> Евгения Цимбалистая</a><br> msg: 26 <br> symb: 642<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/159756385.png" alt="Артур Пименов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id159756385"> Артур Пименов</a><br> msg: 2815 <br> symb: 69881<br> stickers: 32</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/184650754.png" alt="Антон Шевченко" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id184650754"> Антон Шевченко</a><br> msg: 139 <br> symb: 3836<br> stickers: 1</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/353835640.png" alt="Татьяна Иголкина" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id353835640"> Татьяна Иголкина</a><br> msg: 3143 <br> symb: 102053<br> stickers: 54</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/71044350.png" alt="Алексей Овян" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id71044350"> Алексей Овян</a><br> msg: 1667 <br> symb: 39501<br> stickers: 1</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/101479888.png" alt="Артем Мельников" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id101479888"> Артем Мельников</a><br> msg: 307 <br> symb: 10331<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/97457717.png" alt="Екатерина Сажина" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id97457717"> Екатерина Сажина</a><br> msg: 2682 <br> symb: 74402<br> stickers: 38</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/144532083.png" alt="Константин Полевой" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id144532083"> Константин Полевой</a><br> msg: 227 <br> symb: 5909<br> stickers: 15</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/206266925.png" alt="Степан Осипов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id206266925"> Степан Осипов</a><br> msg: 1416 <br> symb: 53505<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/95181627.png" alt="Савва Воробьев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id95181627"> Савва Воробьев</a><br> msg: 185 <br> symb: 3014<br> stickers: 9</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/30412394.png" alt="Ярослав Золотарёв" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id30412394"> Ярослав Золотарёв</a><br> msg: 714 <br> symb: 20678<br> stickers: 16</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/260825621.png" alt="Михаил Белаковский" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id260825621"> Михаил Белаковский</a><br> msg: 29 <br> symb: 811<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/121264233.png" alt="Артём Грязев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id121264233"> Артём Грязев</a><br> msg: 1007 <br> symb: 41032<br> stickers: 4</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/87362515.png" alt="Сергей Барсегян" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id87362515"> Сергей Барсегян</a><br> msg: 449 <br> symb: 10340<br> stickers: 2</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/84788708.png" alt="Дмитрий Грудинин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id84788708"> Дмитрий Грудинин</a><br> msg: 475 <br> symb: 15058<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/252931928.png" alt="Маша Демьяненко" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id252931928"> Маша Демьяненко</a><br> msg: 2039 <br> symb: 77367<br> stickers: 27</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/54794134.png" alt="Дарья Орлова" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id54794134"> Дарья Орлова</a><br> msg: 102 <br> symb: 3713<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/256722293.png" alt="Theo Zui" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id256722293"> Theo Zui</a><br> msg: 155 <br> symb: 4115<br> stickers: 2</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/92924062.png" alt="Богдан Покотило" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id92924062"> Богдан Покотило</a><br> msg: 1149 <br> symb: 38204<br> stickers: 8</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/196830657.png" alt="Глеб Кузнецов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id196830657"> Глеб Кузнецов</a><br> msg: 474 <br> symb: 14071<br> stickers: 2</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/143189845.png" alt="Асель Сагингалиева" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id143189845"> Асель Сагингалиева</a><br> msg: 44 <br> symb: 1099<br> stickers: 1</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/255977013.png" alt="Tea Drunkage" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id255977013"> Tea Drunkage</a><br> msg: 423 <br> symb: 11646<br> stickers: 3</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/299922206.png" alt="Алена Казьмина" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id299922206"> Алена Казьмина</a><br> msg: 224 <br> symb: 10428<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/189506725.png" alt="Екатерина Муханова" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id189506725"> Екатерина Муханова</a><br> msg: 998 <br> symb: 47557<br> stickers: 5</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/55219886.png" alt="Владислав Рагулин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id55219886"> Владислав Рагулин</a><br> msg: 450 <br> symb: 12408<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/216061049.png" alt="Арсений Хорошилов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id216061049"> Арсений Хорошилов</a><br> msg: 2473 <br> symb: 63053<br> stickers: 25</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/157887114.png" alt="Татьяна Абрамова" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id157887114"> Татьяна Абрамова</a><br> msg: 1339 <br> symb: 53046<br> stickers: 7</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/115244199.png" alt="Владимир Журавлев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id115244199"> Владимир Журавлев</a><br> msg: 1750 <br> symb: 41643<br> stickers: 76</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/49104782.png" alt="Арсений Кусков" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id49104782"> Арсений Кусков</a><br> msg: 3288 <br> symb: 68904<br> stickers: 98</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/65030067.png" alt="Никита Целоусов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id65030067"> Никита Целоусов</a><br> msg: 286 <br> symb: 7667<br> stickers: 2</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/157632028.png" alt="Лиля Мусина" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id157632028"> Лиля Мусина</a><br> msg: 89 <br> symb: 3560<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/297360067.png" alt="Илья Зыков" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id297360067"> Илья Зыков</a><br> msg: 265 <br> symb: 9002<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/31309240.png" alt="Степан Иванов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id31309240"> Степан Иванов</a><br> msg: 2322 <br> symb: 55054<br> stickers: 51</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/26295259.png" alt="Kirill Ushakov" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id26295259"> Kirill Ushakov</a><br> msg: 438 <br> symb: 10335<br> stickers: 1</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/323205094.png" alt="Максимов Денис" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id323205094"> Максимов Денис</a><br> msg: 114 <br> symb: 4398<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/23646885.png" alt="Дамир Садеков" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id23646885"> Дамир Садеков</a><br> msg: 16 <br> symb: 570<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/55593324.png" alt="Алексей Бычков" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id55593324"> Алексей Бычков</a><br> msg: 1004 <br> symb: 32425<br> stickers: 22</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/72103912.png" alt="Данил Чукланов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id72103912"> Данил Чукланов</a><br> msg: 3138 <br> symb: 66950<br> stickers: 31</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/172062773.png" alt="Abubakir Koshek" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id172062773"> Abubakir Koshek</a><br> msg: 604 <br> symb: 25177<br> stickers: 1</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/34347944.png" alt="Алексей Иваненко" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id34347944"> Алексей Иваненко</a><br> msg: 107 <br> symb: 2428<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/164709340.png" alt="Паша Семененко" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id164709340"> Паша Семененко</a><br> msg: 109 <br> symb: 4543<br> stickers: 1</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/142054495.png" alt="Никита Шемякин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id142054495"> Никита Шемякин</a><br> msg: 578 <br> symb: 11289<br> stickers: 7</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/210517341.png" alt="Анастасия Тютякина" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id210517341"> Анастасия Тютякина</a><br> msg: 69 <br> symb: 2825<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/90492148.png" alt="Артём Ефимов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id90492148"> Артём Ефимов</a><br> msg: 130 <br> symb: 4952<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/164244401.png" alt="Юлия Попова" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id164244401"> Юлия Попова</a><br> msg: 220 <br> symb: 5632<br> stickers: 5</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/29282974.png" alt="Эмиль Шарафиев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id29282974"> Эмиль Шарафиев</a><br> msg: 96 <br> symb: 1637<br> stickers: 3</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/184197647.png" alt="Павел Андреев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id184197647"> Павел Андреев</a><br> msg: 643 <br> symb: 24423<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/134803004.png" alt="Артемий Марченко" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id134803004"> Артемий Марченко</a><br> msg: 1663 <br> symb: 59259<br> stickers: 25</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/72097730.png" alt="Антон Аврамчик" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id72097730"> Антон Аврамчик</a><br> msg: 128 <br> symb: 4567<br> stickers: 1</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/157358028.png" alt="Роман Куликов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id157358028"> Роман Куликов</a><br> msg: 26 <br> symb: 344<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/139452490.png" alt="Алёна Терманова" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id139452490"> Алёна Терманова</a><br> msg: 436 <br> symb: 11042<br> stickers: 8</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/49469417.png" alt="Кирилл Перминов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id49469417"> Кирилл Перминов</a><br> msg: 54 <br> symb: 2320<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/283953171.png" alt="Камиль Измайлов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id283953171"> Камиль Измайлов</a><br> msg: 217 <br> symb: 7913<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/262831923.png" alt="Соня Строганова" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id262831923"> Соня Строганова</a><br> msg: 73 <br> symb: 2787<br> stickers: 1</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/49047337.png" alt="Алена Петрова" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id49047337"> Алена Петрова</a><br> msg: 116 <br> symb: 2859<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/65938514.png" alt="Александр Артемьев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id65938514"> Александр Артемьев</a><br> msg: 128 <br> symb: 6071<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/157173580.png" alt="Антон Седлецкий" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id157173580"> Антон Седлецкий</a><br> msg: 128 <br> symb: 5547<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/246707497.png" alt="Наташа Романенко" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id246707497"> Наташа Романенко</a><br> msg: 42 <br> symb: 1095<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/150756071.png" alt="Александр Тарусов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id150756071"> Александр Тарусов</a><br> msg: 97 <br> symb: 5101<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/69526542.png" alt="Илья Кочергин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id69526542"> Илья Кочергин</a><br> msg: 616 <br> symb: 16434<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/166803457.png" alt="Александра Соловьёва" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id166803457"> Александра Соловьёва</a><br> msg: 26 <br> symb: 543<br> stickers: 3</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/328830479.png" alt="Славяна Феоктистова" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id328830479"> Славяна Феоктистова</a><br> msg: 1031 <br> symb: 3347<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/76538637.png" alt="Павел Смирнов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id76538637"> Павел Смирнов</a><br> msg: 543 <br> symb: 31775<br> stickers: 1</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/64790650.png" alt="Иван Утешев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id64790650"> Иван Утешев</a><br> msg: 362 <br> symb: 11668<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/178661348.png" alt="Кирилл Шиянов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id178661348"> Кирилл Шиянов</a><br> msg: 163 <br> symb: 6234<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/236996009.png" alt="Сергей Бухалович" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id236996009"> Сергей Бухалович</a><br> msg: 320 <br> symb: 6958<br> stickers: 1</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/58099781.png" alt="Денис Фёдоров" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id58099781"> Денис Фёдоров</a><br> msg: 2567 <br> symb: 67818<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/122298796.png" alt="Максим Боровков" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id122298796"> Максим Боровков</a><br> msg: 443 <br> symb: 23653<br> stickers: 1</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/90490436.png" alt="Александр Черенков" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id90490436"> Александр Черенков</a><br> msg: 605 <br> symb: 43250<br> stickers: 4</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/242823847.png" alt="Антон Алексеев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id242823847"> Антон Алексеев</a><br> msg: 23 <br> symb: 571<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/375952297.png" alt="Николай Кузнецов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id375952297"> Николай Кузнецов</a><br> msg: 1066 <br> symb: 47834<br> stickers: 74</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/43402756.png" alt="Илья Бегичев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id43402756"> Илья Бегичев</a><br> msg: 152 <br> symb: 10428<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/183586553.png" alt="Гордей Зикрацкий" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id183586553"> Гордей Зикрацкий</a><br> msg: 104 <br> symb: 3010<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/63338856.png" alt="Дмитрий Загурский" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id63338856"> Дмитрий Загурский</a><br> msg: 8 <br> symb: 141<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/364797332.png" alt="Никита Семенин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id364797332"> Никита Семенин</a><br> msg: 35 <br> symb: 1941<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/54857873.png" alt="Николай Кошмар" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id54857873"> Николай Кошмар</a><br> msg: 433 <br> symb: 15659<br> stickers: 6</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/191083615.png" alt="Александр Маресев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id191083615"> Александр Маресев</a><br> msg: 43 <br> symb: 933<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/101402657.png" alt="Евгений Гусев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id101402657"> Евгений Гусев</a><br> msg: 10 <br> symb: 300<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/464225980.png" alt="Абу Кошек" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id464225980"> Абу Кошек</a><br> msg: 641 <br> symb: 28407<br> stickers: 5</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/140370864.png" alt="Прохор Егоров" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id140370864"> Прохор Егоров</a><br> msg: 126 <br> symb: 5542<br> stickers: 4</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/281796107.png" alt="Дмитрий Корж" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id281796107"> Дмитрий Корж</a><br> msg: 108 <br> symb: 2743<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/239998347.png" alt="Лев Рыскин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id239998347"> Лев Рыскин</a><br> msg: 63 <br> symb: 3388<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/211795149.png" alt="Артем Ашимов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id211795149"> Артем Ашимов</a><br> msg: 22 <br> symb: 624<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/84163958.png" alt="Катя Бесценная" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id84163958"> Катя Бесценная</a><br> msg: 40 <br> symb: 1234<br> stickers: 2</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/168265555.png" alt="Александр Скрябин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id168265555"> Александр Скрябин</a><br> msg: 90 <br> symb: 3577<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/19024844.png" alt="Ася Камышникова" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id19024844"> Ася Камышникова</a><br> msg: 155 <br> symb: 7762<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/102147842.png" alt="Nurbolat Kenbayev" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id102147842"> Nurbolat Kenbayev</a><br> msg: 89 <br> symb: 1755<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/175858237.png" alt="Маша Федирко" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id175858237"> Маша Федирко</a><br> msg: 87 <br> symb: 3177<br> stickers: 1</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/91152541.png" alt="Никита Доброхотов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id91152541"> Никита Доброхотов</a><br> msg: 664 <br> symb: 22504<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/216630005.png" alt="Re-Wernosti St" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id216630005"> Re-Wernosti St</a><br> msg: 19 <br> symb: 257<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/205457314.png" alt="Дмитрий Норкин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id205457314"> Дмитрий Норкин</a><br> msg: 196 <br> symb: 6861<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/269442807.png" alt="Павел Герасименко" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id269442807"> Павел Герасименко</a><br> msg: 17 <br> symb: 637<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/101945657.png" alt="Диана Голованова" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id101945657"> Диана Голованова</a><br> msg: 40 <br> symb: 1628<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/66010883.png" alt="Арина Гаврилович" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id66010883"> Арина Гаврилович</a><br> msg: 172 <br> symb: 5395<br> stickers: 6</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/58267362.png" alt="Максим Елисеев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id58267362"> Максим Елисеев</a><br> msg: 386 <br> symb: 10963<br> stickers: 1</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/221764928.png" alt="Mariya Voronina" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id221764928"> Mariya Voronina</a><br> msg: 3 <br> symb: 67<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/192277910.png" alt="Сергей Степеннов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id192277910"> Сергей Степеннов</a><br> msg: 196 <br> symb: 4517<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/318869816.png" alt="Ann Kotyashova" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id318869816"> Ann Kotyashova</a><br> msg: 39 <br> symb: 593<br> stickers: 1</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/35997842.png" alt="Даня Дхаван" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id35997842"> Даня Дхаван</a><br> msg: 26 <br> symb: 1387<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/107867767.png" alt="Евгения Гладченко" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id107867767"> Евгения Гладченко</a><br> msg: 13 <br> symb: 518<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/132612827.png" alt="Сергей Моритака" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id132612827"> Сергей Моритака</a><br> msg: 43 <br> symb: 2261<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/113806646.png" alt="Андрей Анохин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id113806646"> Андрей Анохин</a><br> msg: 132 <br> symb: 5779<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/68454162.png" alt="Александр Труфанов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id68454162"> Александр Труфанов</a><br> msg: 126 <br> symb: 5951<br> stickers: 1</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/65190820.png" alt="Рустам Шарипов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id65190820"> Рустам Шарипов</a><br> msg: 41 <br> symb: 1000<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/185505060.png" alt="Татьяна Ушакова" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id185505060"> Татьяна Ушакова</a><br> msg: 56 <br> symb: 2684<br> stickers: 1</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/91232041.png" alt="Андрей Куранов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id91232041"> Андрей Куранов</a><br> msg: 355 <br> symb: 4497<br> stickers: 6</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/9107840.png" alt="Абай Жакенов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id9107840"> Абай Жакенов</a><br> msg: 66 <br> symb: 2650<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/171742681.png" alt="Николай Ивченко" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id171742681"> Николай Ивченко</a><br> msg: 17 <br> symb: 415<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/324389061.png" alt="Владислав Покидкин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id324389061"> Владислав Покидкин</a><br> msg: 2 <br> symb: 21<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/371620913.png" alt="Арсений Мекшун" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id371620913"> Арсений Мекшун</a><br> msg: 30 <br> symb: 1312<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/57030629.png" alt="Дарья Кузнецова" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id57030629"> Дарья Кузнецова</a><br> msg: 72 <br> symb: 2287<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/98965146.png" alt="Денис Меркушев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id98965146"> Денис Меркушев</a><br> msg: 12 <br> symb: 311<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/88499113.png" alt="Макс Ефимовский" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id88499113"> Макс Ефимовский</a><br> msg: 27 <br> symb: 543<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/251227312.png" alt="Ульяна Ходаева" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id251227312"> Ульяна Ходаева</a><br> msg: 15 <br> symb: 467<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/232190572.png" alt="Володя Архипкин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id232190572"> Володя Архипкин</a><br> msg: 18 <br> symb: 402<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/124895395.png" alt="Максим Антипов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id124895395"> Максим Антипов</a><br> msg: 85 <br> symb: 2886<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/186168489.png" alt="Дмитрий Сычев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id186168489"> Дмитрий Сычев</a><br> msg: 46 <br> symb: 2632<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/103125006.png" alt="Александр Стрельников" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id103125006"> Александр Стрельников</a><br> msg: 20 <br> symb: 667<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/152544662.png" alt="Даша Мелихова" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id152544662"> Даша Мелихова</a><br> msg: 126 <br> symb: 6013<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/1715739.png" alt="Никита Корицкий" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id1715739"> Никита Корицкий</a><br> msg: 37 <br> symb: 1001<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/179801748.png" alt="Виталий Околелов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id179801748"> Виталий Околелов</a><br> msg: 15 <br> symb: 522<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/69052569.png" alt="Ангелина Торшина" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id69052569"> Ангелина Торшина</a><br> msg: 3 <br> symb: 86<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/250912619.png" alt="Евгений Цыплаков" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id250912619"> Евгений Цыплаков</a><br> msg: 11 <br> symb: 150<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/77212858.png" alt="Арсений Суханов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id77212858"> Арсений Суханов</a><br> msg: 32 <br> symb: 645<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/132205770.png" alt="Даниил Серебренников" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id132205770"> Даниил Серебренников</a><br> msg: 4 <br> symb: 26<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/216549127.png" alt="Виталий Вистунов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id216549127"> Виталий Вистунов</a><br> msg: 15 <br> symb: 953<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/50982656.png" alt="Ангелина Варгулевич" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id50982656"> Ангелина Варгулевич</a><br> msg: 1 <br> symb: 20<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/90451611.png" alt="Илья Макаренко" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id90451611"> Илья Макаренко</a><br> msg: 18 <br> symb: 545<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/90720901.png" alt="Динай Шарипов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id90720901"> Динай Шарипов</a><br> msg: 7 <br> symb: 283<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/191325913.png" alt="Александр Ионин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id191325913"> Александр Ионин</a><br> msg: 11 <br> symb: 373<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/262318245.png" alt="Константин Украинцев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id262318245"> Константин Украинцев</a><br> msg: 5 <br> symb: 221<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/392612211.png" alt="Siddhartha Gupte" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id392612211"> Siddhartha Gupte</a><br> msg: 5 <br> symb: 385<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/68248092.png" alt="Александр Пашковский" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id68248092"> Александр Пашковский</a><br> msg: 4 <br> symb: 80<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/197602359.png" alt="Алексей Щербаков" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id197602359"> Алексей Щербаков</a><br> msg: 7 <br> symb: 182<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/324008423.png" alt="Маша Лыкова" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id324008423"> Маша Лыкова</a><br> msg: 5 <br> symb: 208<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/270219282.png" alt="Антон Колосветов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id270219282"> Антон Колосветов</a><br> msg: 1 <br> symb: 46<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/324028352.png" alt="Олег Семенов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id324028352"> Олег Семенов</a><br> msg: 10 <br> symb: 331<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/336337957.png" alt="Навдип-Сингх Беди" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id336337957"> Навдип-Сингх Беди</a><br> msg: 5 <br> symb: 50<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/185907319.png" alt="Андрей Копылов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id185907319"> Андрей Копылов</a><br> msg: 2 <br> symb: 125<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/226132239.png" alt="Мария Федотова" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id226132239"> Мария Федотова</a><br> msg: 5 <br> symb: 187<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/162125706.png" alt="Валентин Тимошкин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id162125706"> Валентин Тимошкин</a><br> msg: 3 <br> symb: 42<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/292121660.png" alt="Дмитрий Калашников" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id292121660"> Дмитрий Калашников</a><br> msg: 2 <br> symb: 121<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/53149263.png" alt="Валера Маркин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id53149263"> Валера Маркин</a><br> msg: 3 <br> symb: 49<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/267288693.png" alt="Глеб Давыдов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id267288693"> Глеб Давыдов</a><br> msg: 1 <br> symb: 12<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/86405212.png" alt="Саша Жабин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id86405212"> Саша Жабин</a><br> msg: 2 <br> symb: 101<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/380845599.png" alt="Илья Максимов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id380845599"> Илья Максимов</a><br> msg: 1 <br> symb: 12<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/153159078.png" alt="Степан Москалёв" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id153159078"> Степан Москалёв</a><br> msg: 3 <br> symb: 52<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/314335102.png" alt="Ангелина Варгулевич" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id314335102"> Ангелина Варгулевич</a><br> msg: 1 <br> symb: 20<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/59546173.png" alt="Елизавета Зарькова" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id59546173"> Елизавета Зарькова</a><br> msg: 1 <br> symb: 17<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/266940538.png" alt="Султан Бакиев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id266940538"> Султан Бакиев</a><br> msg: 4 <br> symb: 56<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/65027989.png" alt="Пётр Андреев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id65027989"> Пётр Андреев</a><br> msg: 1 <br> symb: 12<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/17112259.png" alt="Василий Чай" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id17112259"> Василий Чай</a><br> msg: 1 <br> symb: 11<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/322146795.png" alt="Никита Белоусов" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id322146795"> Никита Белоусов</a><br> msg: 2 <br> symb: 50<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/119259297.png" alt="Александра Яковлева" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id119259297"> Александра Яковлева</a><br> msg: 1 <br> symb: 19<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/137848725.png" alt="Anastasiya Kurganskaya" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id137848725"> Anastasiya Kurganskaya</a><br> msg: 1 <br> symb: 22<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/49727637.png" alt="Ильяс Фатхуллин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id49727637"> Ильяс Фатхуллин</a><br> msg: 1 <br> symb: 16<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/97493688.png" alt="Виталий Пашкин" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id97493688"> Виталий Пашкин</a><br> msg: 1 <br> symb: 14<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/256411834.png" alt="Сергей Кудря" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id256411834"> Сергей Кудря</a><br> msg: 2 <br> symb: 53<br> stickers: 0</figcaption>
+    </figure>
+  </div></div><div class="row"><div class="column">
+     <figure>
+    <img src="photos/140810139.png" alt="Эльвег Хуншаев" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id140810139"> Эльвег Хуншаев</a><br> msg: 1 <br> symb: 15<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/377926281.png" alt="Никита Косогоров" style="width:100%">
+     <figcaption> <a href = "https://vk.com/id377926281"> Никита Косогоров</a><br> msg: 2 <br> symb: 17<br> stickers: 0</figcaption>
+    </figure>
+  </div><div class="column">
+     <figure>
+    <img src="photos/145286271.png" alt="DELETED " style="width:100%">
+     <figcaption> <a href = "https://vk.com/id145286271"> DELETED </a><br> msg: 1 <br> symb: 7<br> stickers: 0</figcaption>
+    </figure>
+  </div></div></body>
+</html>
+
